@@ -1,0 +1,65 @@
+body {
+    margin: 50px 20px;
+    background-color: rgb(59, 73, 99);
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    gap: 100px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.1rem;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fields input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+
+  .label-container label {
+    flex: 1;
+    text-align: left;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.messages {
+    font-size: 1.05rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.messages .error-msg {
+    color: rgb(202, 23, 23);
+}
